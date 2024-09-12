@@ -8,6 +8,7 @@ const Portfolio = () => {
         {
             id:1,
             src: S1
+            
         },
 
         {

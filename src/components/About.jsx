@@ -9,13 +9,18 @@ const About = () => {
             </div>
 
             <p className='text-xl mt-20'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, sed odio? Accusamus odio culpa ullam magni ad accusantium perferendis, earum fugiat obcaecati, perspiciatis
+                Computer Science final year student with solid grounding in cs fundamentals.I cleared my high school with a score of 84% and my intermediate class with a score of 92.6%.
+                Worked as a web developer intern at 'CodSoft' where I had made completed 3 task.
+                Recently I had participated in 'Techspectra'(24 hrs code) IIIT-Delhi Hackathon where my team had worked to build a A.I based Grievance Lodging Complaint System.
+                
             </p>
 
             <br />
 
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate similique sequi unde amet, nostrum ad numquam, quaerat assumenda
+            I also worked on various projects like A.I desktop assistant, Personal portfolio website, Erp portal for college and a educational website.
+            Looking forward to work on industry level projects.
+
             </p>
         </div>
 

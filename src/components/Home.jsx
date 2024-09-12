@@ -13,8 +13,10 @@ const Home = () => {
                 </h2>
 
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Illum vero earum nobis, sunt dolores iste esse asperiores
+                    Fresher! Worked on various technologies like Html, Css, JavaScript, React, Php, Java etc.
+                    Recently participated in "Techspectra'(24 hrs code) IIT-Delhi offline hackathon.
+                    Looking forward for opportunities!!
+                    Connect with me on: linkedin 
                 </p>
 
                 <div>
