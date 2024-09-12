@@ -7,12 +7,16 @@ const Portfolio = () => {
     const portfolios =[
         {
             id:1,
-            src: S1 
+            src: S1,
+            demoUrl:'http://localhost/wev1/',
+            repoUrl:'https://github.com/mangal-9090/my-college-erp-project'
         },
 
         {
             id:2,
-            src: S2
+            src: S2,
+            demoUrl:'http://localhost/Hotel-Management-System-main/index.php',
+            repoUrl:'https://github.com/mangal-9090/Hotel-Management-System-main'
         },
     ]
 
@@ -27,12 +31,12 @@ const Portfolio = () => {
 
             <div className='grid sm:grid-cols-2 md: grid-cols-3 gap-8 px-12 sm:px-0'>
 
-            {portfolios.map(({id, src}) => (
+            {portfolios.map(({id, src, demoUrl, repoUrl}) => (
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                 <div className='flex items-center justify-center'>
-                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' onClick={() => window.open(demoUrl, '_blank')}>Demo</button>
+                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' onClick={() => window.open(repoUrl, '_blank')}>Code</button>
                 </div>
             </div>
                 
