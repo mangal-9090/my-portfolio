@@ -7,8 +7,7 @@ const Portfolio = () => {
     const portfolios =[
         {
             id:1,
-            src: S1
-            
+            src: S1 
         },
 
         {
