@@ -29,7 +29,7 @@ const NavBar = () => {
     ] 
 
     return (
-        <div className='flex justify-between items-center w-full h-16 md:h-20 px-4 text-white bg-black fixed z-50'>
+        <div className='flex justify-between items-center w-full h-16 md:h-20 px-4 text-white bg-black fixed top-0 left-0 z-[100]'>
             <div>
                 <h1 className='text-3xl md:text-5xl font-signature ml-2'>Karan</h1>
             </div>
@@ -42,12 +42,12 @@ const NavBar = () => {
                 ))}
             </ul>
 
-            <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-4 z-50 text-gray-500 md:hidden'>
+            <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-4 z-[100] text-gray-500 md:hidden'>
                 {nav ? <FaTimes size={24} />: <FaBars size={24} />}
             </div>
 
             {/* Mobile Menu */}
-            <div className={`fixed top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 transform transition-transform duration-300 ease-in-out ${nav ? 'translate-x-0' : '-translate-x-full'} md:hidden z-40`}>
+            <div className={`fixed top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 transform transition-transform duration-300 ease-in-out ${nav ? 'translate-x-0' : '-translate-x-full'} md:hidden z-[90]`}>
                 <ul className='flex flex-col justify-center items-center h-full'>
                     {links.map(({id, link}) => (
                         <li key={id} className='px-4 cursor-pointer capitalize py-4 text-2xl md:text-4xl hover:text-white transition-colors duration-200'>
