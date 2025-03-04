@@ -8,6 +8,10 @@ import php from "../assets/php.png"
 import vite from "../assets/vite.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
+import node from "../assets/node.png"
+import firebase from "../assets/firebase.png"
+import java from "../assets/java.png"
+import mysql from "../assets/mysql.png"
 
 const Skills = () => {
 
@@ -73,6 +77,34 @@ const Skills = () => {
             src: tailwind,
             title:'Tailwind css',
             style: 'shadow-blue-400'
+        },
+
+        {
+            id:10,
+            src: node,
+            title:'Node js',
+            style: 'shadow-green-400'
+        },
+
+        {
+            id:11,
+            src: firebase,
+            title:'Firebase',
+            style: 'shadow-yellow-500'
+        },
+
+        {
+            id:12,
+            src: java,
+            title:'Java',
+            style: 'shadow-orange-500'
+        },
+
+        {
+            id:13,
+            src: mysql,
+            title:'MySQL',
+            style: 'shadow-orange-500'
         },
     ]
 
