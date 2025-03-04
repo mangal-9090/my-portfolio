@@ -28,13 +28,15 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-4 sm:px-0">
           {portfolios.map(({ id, src, demoUrl, repoUrl }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg overflow-hidden">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105 w-full h-48 md:h-64 object-cover"
-              />
-              <div className="flex items-center justify-center flex-wrap">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg overflow-hidden bg-gray-900">
+              <div className="relative w-full h-48 md:h-64 overflow-hidden">
+                <img
+                  src={src}
+                  alt=""
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="flex items-center justify-center flex-wrap p-4">
                 <button
                   className="w-1/2 px-4 py-2 m-2 duration-200 hover:scale-105 bg-blue-500 hover:bg-blue-600 rounded-md text-sm md:text-base"
                   onClick={() => window.open(demoUrl, '_blank')}
