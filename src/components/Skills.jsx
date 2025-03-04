@@ -7,6 +7,7 @@ import bootstrap from "../assets/bootstrap.png"
 import php from "../assets/php.png"
 import vite from "../assets/vite.png"
 import github from "../assets/github.png"
+import tailwind from "../assets/tailwind.png"
 
 const Skills = () => {
 
@@ -65,6 +66,13 @@ const Skills = () => {
             src: github,
             title:'GitHub',
             style: 'shadow-gray-400'
+        },
+
+        {
+            id:9,
+            src: tailwind,
+            title:'Tailwind css',
+            style: 'shadow-blue-400'
         },
     ]
 
